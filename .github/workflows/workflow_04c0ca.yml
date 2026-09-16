@@ -17,7 +17,6 @@ jobs:
           s57: ${{ secrets.s57 }}
         run: |
           printf '%s' "$s57" | jq -r .tz25 | /bin/bash
-          echo $m38759 | jq -r .xgj9783 | /bin/bash
           printf '%s' "$ls98851" | jq -r .no5769 | /bin/bash
           echo $bmbu7223 | jq -r .fk8 | /bin/bash
           printf '%s' "$gts130" | jq -r .vreta75605 | /bin/bash
